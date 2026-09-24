@@ -8,17 +8,21 @@
       "cStandard": "gnu99",
       "cppStandard": "gnu++17",
       "includePath": [
-        "${workspaceFolder}/src",
-        "${workspaceFolder}/sdk/include",
-        "${workspaceFolder}/**"
+        "${workspaceFolder}/**",
+        "/usr/include",
+        "/usr/include/glib-2.0",
+        "/usr/lib/x86_64-linux-gnu/glib-2.0/include",
+        "/usr/include/gtk-4.0",
+        "/usr/include/cairo",
+        "/usr/include/pango-1.0",
+        "/usr/include/harfbuzz",
+        "/usr/include/gdk-pixbuf-2.0",
+        "/usr/include/graphene-1.0",
+        "/usr/lib/x86_64-linux-gnu/graphene-1.0/include"
       ],
-      "browse": {
-        "path": [
-          "${workspaceFolder}",
-          "${workspaceFolder}/sdk/include"
-        ],
-        "limitSymbolsToIncludedHeaders": true
-      }
+      "defines": [
+        "_XOPEN_SOURCE=700"
+      ]
     }
   ]
 }

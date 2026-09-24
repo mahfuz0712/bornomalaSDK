@@ -1,3 +1,4 @@
 #pragma once
 
-int build_project();
+int build_bos(void);
+int build_linux(void);

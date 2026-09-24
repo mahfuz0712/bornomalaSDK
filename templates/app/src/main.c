@@ -1,22 +1,32 @@
-#include <bos.h>
-#include <window.h>
+#include "include/ui.h"
+#include "include/app.h"
 
-int mmr_main(){
+#ifdef BOS_LINUX
 
-BOS_Window* w=
+int main(void)
+{
+    app_init();
 
-bos_window_create(
+    int result = ui_run();
 
-900,
+    app_shutdown();
 
-600,
-
-"New App"
-
-);
-
-bos_window_show(w);
-
-return 0;
-
+    return result;
 }
+
+#else
+
+#include <mmr.h>
+
+int mmr_main(void)
+{
+    app_init();
+
+    int result = ui_run();
+
+    app_shutdown();
+
+    return result;
+}
+
+#endif
