@@ -1,0 +1,8 @@
+{
+    "name":"NewApp",
+    "package":"com.bornomala.newapp",
+    "version":"1.0.0",
+    "author":"Unknown",
+    "entry":"main.c",
+    "permissions":[]
+}

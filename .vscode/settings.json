@@ -1,0 +1,9 @@
+{
+  "C_Cpp.default.configurationProvider": "ms-vscode.cpptools",
+  "C_Cpp.default.compilerPath": "/usr/bin/x86_64-linux-gnu-gcc",
+  "C_Cpp.default.intelliSenseMode": "linux-gcc-x64",
+  "C_Cpp.default.cStandard": "gnu99",
+  "files.associations": {
+    "*.h": "c"
+  }
+}

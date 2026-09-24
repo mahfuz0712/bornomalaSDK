@@ -1,0 +1,24 @@
+{
+  "version": 4,
+  "configurations": [
+    {
+      "name": "WSL GCC",
+      "compilerPath": "/usr/bin/x86_64-linux-gnu-gcc",
+      "intelliSenseMode": "linux-gcc-x64",
+      "cStandard": "gnu99",
+      "cppStandard": "gnu++17",
+      "includePath": [
+        "${workspaceFolder}/src",
+        "${workspaceFolder}/sdk/include",
+        "${workspaceFolder}/**"
+      ],
+      "browse": {
+        "path": [
+          "${workspaceFolder}",
+          "${workspaceFolder}/sdk/include"
+        ],
+        "limitSymbolsToIncludedHeaders": true
+      }
+    }
+  ]
+}
